@@ -1,0 +1,62 @@
+
+.about
+{
+ color:#06F;
+ font-family:"Comic Sans MS", cursive;
+ font-size:18px;
+ margin:40px 60px;
+ //margin-bottom:75px;
+}
+
+.img_brij
+{
+height:200px;
+width:250px;
+margin-left:100px;
+float:left;
+}
+
+.img_nirav
+{
+height:200px;
+width:250px;
+clear:both;
+margin-left:345px;
+}
+
+.name_brij
+{
+font-family:"Comic Sans MS", cursive;
+float:left;
+margin-left:160px;
+}
+
+.name_nirav
+{
+font-family:"Comic Sans MS", cursive;
+clear:both;
+margin-left:540px;
+}
+
+.no_brij
+{
+font-family:"Comic Sans MS", cursive;
+float:left;
+margin-left:150px;
+margin-top:5px;
+}
+
+.no_nirav
+{
+font-family:"Comic Sans MS", cursive;
+float:left;
+margin-left:480px;
+margin-top:5px;
+}
+
+
+.alink
+{
+ font-size:20px;
+ color:000;
+}

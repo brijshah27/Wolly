@@ -1,0 +1,22 @@
+.wallpaper .small_img
+{
+ float:left;
+ margin-top:50px;
+ margin-left:3.3%;
+}
+
+.wallpaper .small_img img
+{
+ width:333px;
+ height:230px;
+}
+
+.wallpaper .cname
+{
+ clear:both;
+ text-align:center;
+ margin:10 0 0;
+ color:#06f;
+ font-size:18px;
+ font-family:"Comic Sans MS", cursive;
+}

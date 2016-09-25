@@ -1,0 +1,349 @@
+
+body
+{
+ background-image:url(../images/back_ground.png);
+ //background-color:#0bf;
+ width:1350px;
+ margin:0 auto;
+}
+
+a
+{
+ text-decoration:none;
+ cursor:pointer;
+}
+
+a:hover
+{
+ text-shadow:2px 2px 3px #000;
+}
+a:visit
+{
+}
+
+
+/*------------------------------------Header : Paper---------------------------------------*/
+#logo
+{
+ clear:both;
+ float:left;
+ margin-bottom:20px;
+ width:300px;
+ height:130px;
+}
+
+#searchdiv
+{
+ top:0px;
+ right:0px;
+ position:fixed;
+ height:50px;
+ color:#fff;
+ font-family:"Comic Sans MS", cursive;
+ font-size:25px;
+}
+
+#searchdiv:hover
+{
+ border-left:4px solid #000;
+}
+
+#searchright , #searchleft
+{
+ float:left;
+ background-color:#0FF;
+ height:inherit;
+ margin:0px;
+}
+
+#searchright
+{
+ width:50px;
+ background-image:url(../images/search_button.png);
+ background-size:cover;
+ background-position:right;
+ background-repeat:no-repeat;
+ cursor:pointer;
+}
+
+#searchright input
+{
+ width:inherit;
+ height:inherit;
+ display: block;
+ opacity: 0;
+ overflow: hidden;
+}
+
+#searchleft input
+{
+ clear:both;
+ float:left;
+ padding:1%;
+ margin:10px;
+ font-family:inherit;
+ font-size:15px;
+ background-color:#FFF;
+ color:#005B5B;
+ border:0px;
+ box-shadow:-1px -1px 1px #000;
+}
+
+
+#logindiv
+{
+ top:50px;
+ right:0px;
+ position:fixed;
+ height:130px;
+ color:#fff;
+ font-family:"Comic Sans MS", cursive;
+ font-size:25px;
+}
+
+#logindiv:hover
+{
+ border-left:4px solid #000;
+}
+
+#logindivr , #logindivl
+{
+ float:left;
+ background-color:#06f;
+ height:inherit;
+ margin:0px;
+}
+
+#logindivr
+{
+ width:50px;
+ background-position:right;
+ background-repeat:no-repeat;
+ overflow:hidden;
+}
+
+#logindivl div
+{
+ padding:8% 20px;
+ margin:0;
+}
+
+#logindivl input
+{
+ clear:both;
+ float:left;
+ padding:1%;
+ font-family:inherit;
+ font-size:15px;
+ background-color:#FFF;
+ color:#06f;
+ border:0px;
+ box-shadow:-1px -1px 1px #000;
+}
+
+#logindivl a
+{
+ clear:both;
+ float:left;
+ color:#fff;
+ font-family:inherit;
+ font-size:10px;
+}
+
+#logindivl a:hover
+{
+ text-shadow:2px 2px 3px #000;
+}
+
+#logindivl p
+{
+ clear:none;
+ float:right;
+ color:#000;
+ margin:0px;
+ font-family:inherit;
+ font-size:10px;
+ display:none;
+}
+
+#logindivl img
+{
+ clear:both;
+ float:left;
+ background-color:transparent;
+ width:100px;
+ height:100px;
+ margin:13px 30px 0px 14px;
+ padding:2px 0px 0px 2px;
+ box-shadow:2px 2px 5px #000 inset;
+}
+
+#logindivr input
+{
+ width:inherit;
+ height:inherit;
+ display: block;
+ opacity: 0;
+ overflow: hidden;
+ cursor:pointer;
+}
+
+#facebook
+{
+ top:180px;
+ right:0px;
+ position:fixed;
+ width:50px;
+ height:50px;
+ background-color:#00F;
+ background-image:url(../images/f.png);
+ background-size:cover;
+ background-position:right;
+ background-repeat:no-repeat;
+ cursor:pointer;
+}
+
+#facebook:hover
+{
+ width:158px;
+ border-left:4px solid #000;
+ background-image:url(../images/facebook.png);
+}
+
+#twitter
+{
+ top:230px;
+ right:0px;
+ position:fixed;
+ width:50px;
+ height:50px;
+ background-color:#3CF;
+ background-image:url(../images/t.png);
+ background-size:cover;
+ background-position:right;
+ background-repeat:no-repeat;
+ cursor:pointer;
+}
+
+#twitter:hover
+{
+ width:130px;
+ border-left:4px solid #000;
+ background-image:url(../images/twitter.png);
+}
+
+
+/*-----------------------------Header : Paper------------------------------------------*/
+
+
+/*----------------------------Tool Bar : Paper-----------------------------------------*/
+
+.tools
+{
+ float:left;
+ color:#FFF;
+ background-color:#06F;
+ height:46px;
+ padding:3px 4.16%;
+ text-align:center;
+}
+
+.tools:hover
+{
+ text-shadow:3px 3px 5px #000;
+ //background-color:transparent;
+}
+
+.corner
+{
+ float:left;
+ color:#FFF;
+ height:46px;
+ background-color:#06F;
+ padding:3px 2%;
+}
+
+.toolbar
+{
+ clear:both;
+ float:left;
+ width:inherit;
+ font-size:28px;
+ font-family:"Comic Sans MS", cursive;
+ box-shadow:0px 1px 5px #000;
+ //box-shadow:0px 3px 3px #000;
+}
+
+/*--------------------------------Tool Bar---------------------------------------------*/
+
+
+/*--------------------------------Body : Wall---------------------------------------*/
+.wall
+{
+ clear:both;
+ float:left;
+ width:1150px;
+ margin:50px 100px 0px;
+ display:none;
+}
+
+.wall_start
+{
+ clear:both;
+ float:left;
+ width:inherit;
+ height:50px;
+ text-align:center;
+ font-family:"Comic Sans MS", cursive;
+ color:#FFF;
+ background-color:#06F;
+ font-size:32px;
+ box-shadow:0px -1px 5px #000;
+}
+
+.wall_end
+{
+ clear:both;
+ float:left;
+ width:inherit;
+ height:50px;
+ font-family:"Comic Sans MS", cursive;
+ color:#FFF;
+ background-color:#06F;
+ box-shadow:0px 3px 5px #000;
+}
+
+.wall_end .txt_left
+{
+ float:left;
+ margin-left:50px;
+ margin-top:12px;
+ color:#FFF;
+}
+
+.wall_end .txt_right
+{
+ float:right;
+ margin-right:50px;
+ margin-top:12px;
+ color:#FFF;
+}
+
+.wallpaper
+{
+ clear:both;
+ float:left;
+ background-color:#FFF;
+ padding-bottom:50px;
+ width:inherit;
+ box-shadow:0px 1px 2px #000 inset;
+}
+
+.only_for_margin
+{
+ clear:both;
+ height:50px;
+ width:inherit;
+}
+
+/*--------------------------------Body : Wall & Footer---------------------------------------*/
